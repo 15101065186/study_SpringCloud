@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.example.demo.dao.GirlDao">
+    <resultMap id="QUERY_MAP" type="Girl">
+        <id column="id" property="id" jdbcType="BIGINT" javaType="Integer"/>
+        <result column="name" property="name" jdbcType="VARCHAR" javaType="String"/>
+        <result column="age" property="age" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="cup_Size" property="cupSize" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+    <sql id="base_SQL">
+        id , name , age , cup_Size
+
+    </sql>
+    <select id="queryOne" resultMap="QUERY_MAP" parameterType="Girl">
+        select <include refid="base_SQL"/>
+        from girl
+        where id = #{id}
+    </select>
+</mapper>
