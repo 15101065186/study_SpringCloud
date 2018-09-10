@@ -1,0 +1,13 @@
+server:
+  port: 9911
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/15101065186/study_SpringCloud.git
+          username: 15101065186
+          password: mishigudi1
+          search-paths: config-server

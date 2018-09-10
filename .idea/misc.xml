@@ -6,18 +6,19 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-simple-consumer-movie/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-discovery-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-provider-user/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-provider-user1/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-discovery-eureka-ha/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-discovery-eureka-authenticating/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-provider-user-my-metadata/pom.xml" />
-        <option value="$PROJECT_DIR$/../study_springcloud/microservice-simple-consumer-movie-understanding-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user1/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/../study_springcloud/out" />
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

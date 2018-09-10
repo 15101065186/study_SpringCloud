@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class Girl implements Serializable {
     private Integer id;
+    private String userId;
     private String name;
-    private Integer age;
-    private String cupSize;
+    private String phone;
 
     public Integer getId() {
         return id;
@@ -14,6 +14,14 @@ public class Girl implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public String getName() {
@@ -24,19 +32,11 @@ public class Girl implements Serializable {
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getCupSize() {
-        return cupSize;
-    }
-
-    public void setCupSize(String cupSize) {
-        this.cupSize = cupSize;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

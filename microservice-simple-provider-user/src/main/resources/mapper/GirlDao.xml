@@ -4,19 +4,19 @@
 
 <mapper namespace="com.example.demo.dao.GirlDao">
     <resultMap id="QUERY_MAP" type="Girl">
-        <id column="id" property="id" jdbcType="BIGINT" javaType="Integer"/>
+        <id column="id" property="id" jdbcType="INT" javaType="Integer"/>
         <result column="name" property="name" jdbcType="VARCHAR" javaType="String"/>
-        <result column="age" property="age" jdbcType="INTEGER" javaType="Integer"/>
-        <result column="cup_Size" property="cupSize" jdbcType="VARCHAR" javaType="String"/>
+        <result column="user_id" property="userId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR" javaType="String"/>
     </resultMap>
 
     <sql id="base_SQL">
-        id , name , age , cup_Size
+        id , user_id , name , phone
 
     </sql>
     <select id="queryOne" resultMap="QUERY_MAP" parameterType="Girl">
         select <include refid="base_SQL"/>
-        from girl
+        from user
         where id = #{id}
     </select>
 </mapper>

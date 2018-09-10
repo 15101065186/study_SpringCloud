@@ -16,7 +16,7 @@ public class DemoApplicationTests {
 
     @Test
     public void contextLoads() {
-        Girl girl = GirlDao.queryOne(3);
+        Girl girl = GirlDao.queryOne(1);
         System.out.println("************************************************"+girl.getName());
     }
 

@@ -6,19 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
         <module name="demo" />
         <module name="demo (1)" />
+        <module name="demo (2)" />
+        <module name="demo (3)" />
+        <module name="demo (4)" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka (1)" />
+        <module name="microservice-discovery-eureka (2)" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-provider-user1" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-consumer-movie (1)" />
+        <module name="microservice-simple-consumer-movie (2)" />
         <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservice-discovery-eureka (2)" target="1.8" />
       <module name="microservice-discovery-eureka-authencating" target="1.8" />
     </bytecodeTargetLevel>
   </component>
