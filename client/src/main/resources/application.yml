@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: didispace
+  cloud:
+    config:
+      profile: test
+      label: master
+      uri: localhost:9911/
+server:
+  port: 7777
