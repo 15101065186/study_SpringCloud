@@ -1,10 +1,11 @@
 spring:
   application:
-    name: didispace
+    name: didispaces
   cloud:
     config:
       profile: test
       label: master
       uri: localhost:9911/
+      name: didispace
 server:
   port: 7777
