@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
       </list>
     </option>
   </component>
