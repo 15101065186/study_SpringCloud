@@ -24,6 +24,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="client" target="1.8" />
       <module name="microservice-discovery-eureka-authencating" target="1.8" />
     </bytecodeTargetLevel>
   </component>
